@@ -11,6 +11,7 @@
     "test:report": "npx playwright show-report",
     "test:browser": "npx playwright test --project=chromium",
     "test:debug": "npx playwright test --debug",
+    "test:ci": "npx playwright test --reporter=html --reporter=junit",
     "install:browsers": "npx playwright install"
   },
   "dependencies": {
